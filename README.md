@@ -1,12 +1,3 @@
-# Cloudflare Pages Test
-This project aims to test cloudflare nextjs build in azion.
-
-## Prerequisites
-* Azion Cells
-* Node >= 16
-* Docker
-* aws cli
-
 ## Installing
 In root dir, run:
 ```
