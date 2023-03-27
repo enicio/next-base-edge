@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -20,11 +21,11 @@ export default function Home() {
         <div className={styles.description}>
           <p>Routes:</p>
           <ul>
-            <li><Link href="/api/hello">Edge API Route</Link></li>
-            <li><Link href="/about">Middleware (redirect in /about)</Link></li>
-            <li><Link href="/ssr">SSR</Link></li>
-            <li><Link href="/teste/x">/[prodSlug]/x page with slug=teste</Link></li>
-            <li><Link href="/xptz">[...catSlug] page with slug=xptz</Link></li>
+            <li><a href="/api/hello">Edge API Route</a></li>
+            <li><a href="/about">Middleware (redirect in /about)</a></li>
+            <li><a href="/ssr">SSR</a></li>
+            <li><a href="/teste/x">/[prodSlug]/x page with slug=teste</a></li>
+            <li><a href="/xptz">[...catSlug] page with slug=xptz</a></li>
           </ul>
         </div>
 
