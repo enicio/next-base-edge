@@ -18,8 +18,4 @@ export const getServerSideProps = async ({ req, res }) => {
   return { props: { message } }
 }
 
-export const config = {
-  runtime: 'experimental-edge',
-}
-
 export default EdgeSsrExample
